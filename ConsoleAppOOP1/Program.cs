@@ -16,11 +16,29 @@ namespace ConsoleAppOOP1
             //Console.WriteLine(p2.name);
             #endregion
             #region p1 Q2
-          //  Person p1 = new Person();
-          //  p1.SetName("John");
-          ////  p1.Name("mina") // this will not work because the name is private and we can only set it through the SetName method
-          //  p1.age = 30;
-          //  Console.WriteLine($"the age is { p1.age}");// we can access the age because it is public
+            //  Person p1 = new Person();
+            //  p1.SetName("John");
+            ////  p1.Name("mina") // this will not work because the name is private and we can only set it through the SetName method
+            //  p1.age = 30;
+            //  Console.WriteLine($"the age is { p1.age}");// we can access the age because it is public
+            #endregion
+            #region p1 Q3
+            //1. new project chosse class library and name it 
+            //2. add classes to the project must be public so other projects can use it.
+            //3. build the library and it create dll file
+            //4. open another project and add reference to the dll file of the library
+            //5. Namespace must be imported using "using"
+            //6. use the classes and methods of the library in the new project
+            #endregion
+            #region P1 Q4
+            // class library is a collection of classes and methods that can be used by other projects.
+            // it is a way to organize code and reuse it in different projects.
+            // it can be created as a separate project in the solution and then referenced by other projects.
+            // it can also be created as a dll file and then referenced by other projects.
+            // use it because code reusability, maintainability, and separation of concerns.
+            // it allows us to create modular code that can be easily tested and maintained.
+            // it also allows us to share code between different projects and teams.
+
             #endregion
         }
 
