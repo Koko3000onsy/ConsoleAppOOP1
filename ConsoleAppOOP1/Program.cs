@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleAppOOP1.Enums;
+using System;
 
 namespace ConsoleAppOOP1
 {
@@ -38,6 +39,28 @@ namespace ConsoleAppOOP1
             // use it because code reusability, maintainability, and separation of concerns.
             // it allows us to create modular code that can be easily tested and maintained.
             // it also allows us to share code between different projects and teams.
+
+            #endregion
+            #region P2
+            //Console.WriteLine("Welcome to the Movie Ticket Booking System!");
+            //Console.WriteLine("Please enter the movie name:");
+            //string movieName = Console.ReadLine();
+            //Console.WriteLine("Please select the ticket type (Standard, VIP, IMAX):");
+            //TicketType type = (TicketType)Enum.Parse(typeof(TicketType), Console.ReadLine(), true);
+            //Console.WriteLine("Please enter the seat number:");
+            //int seatNumber = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Please enter the seat row:");
+            //char row=char.Parse(Console.ReadLine());
+            //Console.WriteLine("Please enter the price:");
+            //double price = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Please enter the discount Amount:");
+            //double discountamount = double.Parse(Console.ReadLine()); 
+            //Ticket t = new Ticket(movieName,new Seat( 1, 'A'), type, price);
+            //t.ApplyDiscount(ref discountamount);
+            //Console.WriteLine("enter the tax %:");
+            //double taxpercent = double.Parse(Console.ReadLine());
+            //double total = t.CalcTotal(taxpercent);
+            //Console.WriteLine($"The total price is: {total}");
 
             #endregion
         }
